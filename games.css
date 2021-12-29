@@ -1,0 +1,56 @@
+.game{
+    width: 30%;
+    height: 35%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: #fefefe;
+
+    background-color: #0e0e0e;
+
+    border-radius: 5%;
+
+    transition: all .2s linear;
+
+    margin: 10px 10px 10px 10px;
+}
+
+.game:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.game-img{
+    border-radius: 5%;
+}
+
+.g-description{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.g-dev{
+    margin-right: 5%;
+    margin-left: 3%;
+
+    border-radius: 50%;
+    border: solid 1px #797171;
+}
+
+.text-desc p{
+    margin: 4% 0px 4% 0px;
+}
+
+.text-desc .title{
+    font-family: Verdana;
+    font-size: clamp(1.5em, 0.5em + 1vw, 2.0em);
+    font-weight: bold;
+}
+
+.text-desc .subtitle{
+    font-family: Helvética;
+    font-size: clamp(0.7em, 0.3em + 1vw, 1.2em);
+}

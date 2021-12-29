@@ -1,0 +1,1102 @@
+/*---------------PARTE DO GABRIEL-----------*/
+@media screen and (max-width:1980px){
+
+    .Gamora{
+    
+        display: inline-block;
+        width:320px;
+        position:absolute;
+        top:210px;
+        left:1525px;
+    
+    }
+    @font-face{
+        font-family:Lato;
+        src: local('./Lato-Black.ttf'), url('./Lato-Black.ttf');
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    header {
+        width: 100%;
+        height: 40px;
+        background-color: #000000;
+    }
+    
+    .sub {
+      
+        height: 90px;
+        width: 100% ;
+        background-color: #efefef;
+        
+    }
+    
+    figure {
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        left: 20px;
+        top: 45px;
+    }
+    
+    .logo {
+        position: relative;
+        top:5px;
+        left:10px;
+    }
+    
+    .ola {
+        text-decoration: none;
+        font-family: verdana;
+        position: absolute;
+        top: 95px;
+        left: 130px;
+        font-size: 16px;
+    }
+    
+    .ola2 {
+        text-decoration: none;
+        font-family: verdana;
+        position: absolute;
+        top: 95px;
+        left: 250px;
+        font-size: 16px;
+    }
+    
+    .sair{
+        text-decoration: none ;
+        font-family: verdana;
+        position: absolute;
+        top: 95px;
+        right: 55px;
+        font-size: 16px;
+    }
+    
+    .sair:hover{
+        color: #0e0e0e;
+    }
+    
+    .sair-texto{
+        font-size: clamp(1em, 0.5em + 1vw, 2em);
+    }
+    
+    .ola3{
+        text-decoration: none ;
+        font-family: verdana;
+        position: absolute;
+        top:60px;
+        right:50px;
+        font-size: 30px;
+    }
+
+    .ola3:hover{
+        color: #0e0e0e;
+    }
+
+    .sla{
+    
+    
+        display: inline-block;
+        position: absolute;
+        left:650px;
+        top:55px;
+       
+    }
+    
+    .sla img{
+    
+    
+        border-radius:50%;
+       
+    }
+    
+    
+    .s1 {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        background-color: #2b2a2a;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .idtext{
+    
+    position:relative;
+    top:70px;
+    left:260px;
+    color:#fff;
+    font-family:Lato;
+    font-size: 30px;
+    line-height: 30px;
+    display: inline-block;
+    
+    
+    }
+    
+    .id2{
+    
+    
+        font-size:14px;
+      
+    
+    
+    }
+    
+    
+    .id3 {
+    
+        position:relative;
+        top:150px;
+        text-align: center;
+        font-size: 38px;
+        font-family:Lato;
+        color:#fff; 
+    }
+    
+    .img2{
+    
+        position:relative;
+        top:110px;
+        display:inline-block;
+        width:90%;
+     
+    }
+    
+    .img2 img {
+    
+        border-radius:2%;
+    }
+    
+    
+    .s2{
+    position: relative;
+    width:100%;
+    height:600px;
+    display:flex;
+    
+    }
+    
+    
+    
+    
+    .foto {
+        position: relative;
+        border-radius: 5%;
+        left: 180px;
+        top: 120px;
+    }
+    
+    .texto {
+        width: 30%;
+        height: 50%;
+        position: relative;
+        top: 110px;
+        line-height: 35px;
+        font-family: verdana;
+        margin: 20px;
+        padding: 20px;
+        background-color: #efefef;
+        border-radius: 5%;
+        opacity: 0.9;
+        text-align: justify;
+    }
+    
+    .h1 {
+        color: #dc3c4d;
+        text-align: center;
+    }
+    
+    footer {
+        position: relative;
+        height: 280px;
+        width: 100%;
+        background-color: #c51f1f;
+        background-color: #efefef;
+    }
+    
+    .fig1 {
+        position: relative;
+        display:inline-block;
+        width:90%;
+        top:20px;
+        left: 25px;
+    }
+    
+    .redes1 {
+        position: relative;
+        top:20px;
+        left:10px;  
+        display: inline-block;
+        line-height: 30px;
+        margin-left: 15px;
+        
+    }
+    
+    .redes {
+        font-family: verdana;
+        font-size: 16px;
+    }
+    
+    .area {
+        color: #efefef;
+        background-color: #1c2769;
+        border-radius: 5%;
+        opacity: 0.9;
+        text-align: justify;
+        height: 160px;
+        width: 18%;
+        Position: absolute;
+        top: 30px;
+        right: 30px;
+        font-family: Helvetica;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .t {
+        margin: 10px;
+    }
+    
+    .parte1 {
+        display: inline-block;
+    }
+    .parte2{
+      
+        width: 65%;
+        
+        background-color: #2a2a2a;   
+    
+    }
+    
+    .divpart1{
+    position:absolute;
+    
+    height:5px;
+    width:100%;
+    background-color: #efefef   ;
+    }
+    .parte3{
+    
+    
+        width: 35%;
+        background-color:#2a2a2a;  
+        overflow: scroll;
+    }
+    
+    .div{
+    
+        width:5px;
+        background-color: #efefef;
+    
+    
+    }
+    
+    .cont{
+    
+        position:relative;
+        top:50px;
+        left:100px;
+        width: 500px;
+        height:130px;
+        background-color: #1c2769;
+        border:solid 2px;
+        border-radius:20px;
+       border-color:#FFF;    
+    
+    }
+    
+    
+    .title1{
+    
+        position: relative;
+        font-family: sans-serif;
+        top:40px;
+        left: 160px;
+        color:#fff;
+        
+    }
+    
+    .a{
+    
+    display: inline-block;
+    
+    
+    position:relative;
+        
+    left: 180px;
+    top: 60px;
+    
+    }
+    
+    .title2{
+    
+        position: relative;
+        top:40px;
+        left: 180px;
+        font-family:sans-serif;
+        color:#fff;
+    
+        
+    }
+    
+    
+    .texto6{
+    
+    text-align:center;
+    font-family: sans-serif;
+    width: 200px;   
+    color:#FFF;
+    
+    
+    }
+    
+    
+    .texto7{
+    
+    top: 330px;
+    
+    
+    }
+    
+    .texto8{
+    
+    top: 500px;
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    .title3{
+    
+    color:#efefef;
+    font-family:sans-serif;
+    
+    }
+    
+    
+    .lao{
+    
+    display:inline-block;
+    width:50%;
+    margin:10px;
+    }
+    
+    .le{
+    
+        margin:20px;
+        display:flex;
+        align-items:center;
+        background-color: #1c2769;
+        border:solid 1px;
+        border-color:#efefef;
+    }
+    
+    .footer1{
+    
+    position:absolute;
+    display:inline-block;
+    width:30%;
+    top:-10px;
+    left: 840px;
+    }
+    
+    
+    .peter{
+        display: inline-block;
+        width:50%;
+        position:absolute;
+        right:180px;
+        top:75px;
+    }
+    
+    .yondu{
+    
+        display: inline-block;
+        width:60%;
+        position:absolute;
+        top:80px;
+        left:-15px;
+       
+    
+    }
+    
+    
+     
+    
+    /*---------------PARTE DO GEOVANE------------*/
+    
+    
+    /*--------------BARRA DE PESQUISA-----------------*/
+    
+    ::-webkit-scrollbar {
+        width: 3px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(#cf16168c, #ad1111);
+        border-radius: 30px;
+    }
+    
+    
+    /*BARRA DE PESQUISA*/
+    
+    .barra_pesq {
+        margin-top: 0.5%;
+        position: absolute;
+        top: 50px;
+        right: 300px;
+        background-color: #252525;
+        height: 50px;
+        border-radius: 40px;
+        box-shadow: 3px 3px 3px #666666;
+    }
+    
+    .barra_pesq:hover>.texto-s {
+        width: 300px;
+        padding: 0 6px;
+    }
+    
+    .barra_pesq:hover>.btn {
+        background-color: #FFF;
+    }
+    
+    .btn {
+        color: #ce2222;
+        text-decoration: none;
+        float: right;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #252525;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+    
+    .texto-s {
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: #fff;
+        font-size: 16pt;
+        transition: 0.5s;
+        line-height: 47px;
+        width: 0px;
+    }
+    
+    
+    /*Menu que Desce - Alex*/
+    
+    .menu_desce {
+        position: absolute;
+        top: 138px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        background-color: #efefef;
+        z-index: 1;
+    }
+    
+    .subir {
+        height: 0px;
+        transition: 1s;
+    }
+    
+    .descer {
+        transition: 1s;
+        height: 300px;
+    }
+    
+    .menu_desce a {
+        display: inline-block;
+        padding-right: 20px;
+        text-decoration: none;
+        font-family: sans-serif;
+        position: relative;
+        top: 10px;
+        color: #ad1111;
+        font-size: 40px;
+        transition: 0.5s;
+    }
+    
+    .menu a:hover {
+        text-decoration: underline;
+        color: #dc3c4d;
+    }
+    
+    .seta {
+        text-align: left;
+        position: absolute;
+        top: 100px;
+        left: 130px;
+        z-index: 1;
+    }
+    
+    .seta svg {
+        font-size: 30px;
+        color: #ad1111;
+        cursor: pointer;
+    }
+    
+    
+    }
+
+
+@media screen and (max-width:1366px){
+
+.Gamora{
+
+    display: inline-block;
+    width:180px;
+    position:absolute;
+    top:240px;
+    left:1100px;
+}
+@font-face{
+    font-family:Lato;
+    src: local('./Lato-Black.ttf'), url('./Lato-Black.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+}
+
+.sub {
+  
+    height: 90px;
+    width: 100% ;
+    background-color: #efefef;
+    
+}
+
+figure {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 20px;
+    top: 45px;
+}
+
+.logo {
+    position: relative;
+    top:5px;
+    left:10px;
+}
+
+.ola {
+    text-decoration: none;
+    font-family: verdana;
+    position: absolute;
+    top: 95px;
+    left: 130px;
+    font-size: 16px;
+}
+
+.ola2 {
+    text-decoration: none;
+    font-family: verdana;
+    position: absolute;
+    top: 95px;
+    left: 250px;
+    font-size: 16px;
+}
+
+.sair{
+    text-decoration: none ;
+    font-family: verdana;
+    position: absolute;
+    top: 95px;
+    right: 55px;
+    font-size: 16px;
+}
+
+.sair:hover{
+    color: #0e0e0e;
+}
+
+.sair-texto{
+    font-size: clamp(1em, 0.5em + 1vw, 2em);
+}
+
+.ola3{
+    text-decoration: none ;
+    font-family: verdana;
+    position: absolute;
+    top:60px;
+    right:50px;
+    font-size: 30px;
+}
+
+.sla{
+
+
+    display: inline-block;
+    position: absolute;
+    left:400px;
+    top:60px;
+    border-radius:50%;
+   
+}
+
+.sla img{
+
+
+    border-radius:50%;
+   
+}
+
+
+.s1 {
+    position: relative;
+    width: 100%;
+    height: 730px;
+    background-color: #2b2a2a;
+    display: flex;
+    justify-content: space-around;
+
+}
+.idtext{
+
+position:relative;
+top:80px;
+left:530px;
+color:#fff;
+font-family:Lato;
+font-size: 30px;
+line-height: 30px;
+display: inline-block;
+
+
+}
+
+.id2{
+
+
+    font-size:14px;
+  
+
+
+}
+
+
+.id3 {
+
+    position:relative;
+    top:190px;
+    text-align: center;
+    font-size: 38px;
+    font-family:Lato;
+    color:#fff; 
+}
+
+.img2{
+
+    position:relative;
+    top:120px;
+    display:inline-block;
+    width:90%;
+ 
+}
+
+.img2 img {
+
+    border-radius:2%;
+}
+
+
+.s2{
+position: relative;
+width:100%;
+height:600px;
+display:flex;
+
+}
+
+
+
+
+.foto {
+    position: relative;
+    border-radius: 5%;
+    left: 180px;
+    top: 120px;
+}
+
+.texto {
+    width: 30%;
+    height: 50%;
+    position: relative;
+    top: 110px;
+    line-height: 35px;
+    font-family: verdana;
+    margin: 20px;
+    padding: 20px;
+    background-color: #efefef;
+    border-radius: 5%;
+    opacity: 0.9;
+    text-align: justify;
+}
+
+.h1 {
+    color: #dc3c4d;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    height: 240px;
+    width: 100%;
+    background-color: #c51f1f;
+    background-color: #efefef;
+}
+
+.fig1 {
+    position: relative;
+    display:inline-block;
+    width:90%;
+    top:20px;
+    left:35px;
+}
+
+.redes1 {
+    position: relative;
+    top:20px;
+    left:10px;  
+    display: inline-block;
+    line-height: 30px;
+    margin-left: 15px;
+    text-align:justify;
+    
+}
+
+.redes {
+    font-family:  Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.area {
+    color: #efefef;
+    background-color: #1c2769;
+    border-radius: 5%;
+    opacity: 0.9;
+    text-align: justify;
+    height: 160px;
+    width: 18%;
+    Position: absolute;
+    top: 30px;
+    right: 30px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.t {
+    margin: 10px;
+}
+
+.parte1 {
+    display: inline-block;
+}
+.parte2{
+  
+    width: 65%;
+    
+    background-color: #2a2a2a;   
+
+}
+
+.divpart1{
+position:absolute;
+
+height:5px;
+width:100%;
+background-color: #efefef   ;
+}
+.parte3{
+
+
+    width: 35%;
+    background-color:#2a2a2a;  
+    overflow: scroll;
+}
+
+.div{
+
+    width:5px;
+    background-color: #efefef;
+
+
+}
+
+.cont{
+
+    position:relative;
+    top:50px;
+    left:20px;
+    width: 500px;
+    height:130px;
+    background-color: #1c2769;
+    border:solid 2px;
+    border-radius:20px;
+   border-color:#FFF;    
+
+}
+
+
+.title1{
+
+    position: relative;
+    font-family: sans-serif;
+    top:40px;
+    left: 120px;
+    color:#fff;
+    
+}
+
+.a{
+
+display: inline-block;
+position:relative;
+    
+left: 180px;
+top: 60px;
+}
+
+.title2{
+
+    position: relative;
+    top:40px;
+    left: 140px;
+    font-family:sans-serif;
+    color:#fff;
+}
+
+
+.texto6{
+
+text-align:center;
+font-family: sans-serif;
+width: 200px;   
+color:#FFF;
+
+
+}
+
+
+.texto7{
+
+top: 330px;
+
+
+}
+
+.texto8{
+
+top: 500px;
+
+
+
+
+}
+
+
+
+
+
+.title3{
+
+color:#efefef;
+
+
+}
+
+
+.lao{
+
+display:inline-block;
+width:50%;
+margin:10px;
+}
+
+.le{
+
+    margin:20px;
+    display:flex;
+    align-items:center;
+    background-color: #1c2769;
+    border:solid 1px;
+    border-color:#efefef;
+}
+
+.footer1{
+
+position:absolute;
+top:0px;
+left: 600px;
+}
+
+
+.peter{
+    display: inline-block;
+    width:50%;
+    position:absolute;
+    right:90px;
+    top:160px;
+}
+
+.yondu{
+
+    display: inline-block;
+    width:50%;
+    position:absolute;
+    top:150px;
+    left:50px;
+   
+
+}
+
+
+ 
+
+/*---------------PARTE DO GEOVANE------------*/
+
+
+/*--------------BARRA DE PESQUISA-----------------*/
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#cf16168c, #ad1111);
+    border-radius: 30px;
+}
+
+
+/*BARRA DE PESQUISA*/
+
+.barra_pesq {
+    margin-top: 0.5%;
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    background-color: #252525;
+    height: 50px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px #666666;
+}
+
+.barra_pesq:hover>.texto-s {
+    width: 300px;
+    padding: 0 6px;
+}
+
+.barra_pesq:hover>.btn {
+    background-color: #FFF;
+}
+
+.btn {
+    color: #ce2222;
+    text-decoration: none;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.texto-s {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16pt;
+    transition: 0.5s;
+    line-height: 47px;
+    width: 0px;
+}
+
+
+/*Menu que Desce - Alex*/
+
+.menu_desce {
+    position: absolute;
+    top: 138px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #efefef;
+    z-index: 1;
+}
+
+.subir {
+    height: 0px;
+    transition: 1s;
+}
+
+.descer {
+    transition: 1s;
+    height: 300px;
+}
+
+.menu_desce a {
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+    color: #ad1111;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #dc3c4d;
+}
+
+.seta {
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    z-index: 1;
+}
+
+.seta svg {
+    font-size: 30px;
+    color: #ad1111;
+    cursor: pointer;
+}
+
+
+}
+
+
+

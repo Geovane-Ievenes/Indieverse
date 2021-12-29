@@ -1,0 +1,141 @@
+@media screen and (max-width:1980px){
+
+
+    @font-face{
+        font-family:raleway;
+        src: local('Raleway-ExtraLight.ttf'), url('Raleway-ExtraLight.ttf');
+    }
+
+    *{
+        margin:0px;
+        padding:0px;
+    
+    }
+
+    .s2{
+        background-color:#d9d9d9;
+        width:40%;
+    }    
+    
+    main{
+        display:flex;
+    }
+
+    
+    .s1{
+        background-color: #d9d9d9;
+
+        height:100vh;
+        width: 60%;
+    }
+    
+    
+    .login{
+
+        position: relative;
+        right:90px;
+        top:10px;
+        height:96%;
+        width: 710px;
+        background-color:#fff;
+        border-radius:5%;
+        border:solid 10px;
+        border-color:#000;
+
+    }    
+    h1{
+
+        font-size:44px;
+        font-family: raleway;
+        position:relative;
+        top:110px;
+    }
+
+    .ins{
+
+        border:solid 7px;     
+        border-color:#ff5757;
+        width:630px;
+        height:50px;    
+        position:relative;
+        top:160px;
+
+        margin-bottom: 20px;
+    }
+
+    label{
+
+        font-family: raleway;
+        font-size: 35px;    
+        position: relative;
+        top:165px;
+        left: -250px;
+
+        margin-bottom: 10px;
+    }
+
+    #nick{
+        top: 165px;
+        left: -175px;
+    }
+
+    .sen{
+
+        top:330px;
+    }
+
+    .img2{
+
+        display:flex;
+        justify-content: center;
+        position:relative;
+        top:170px;
+    }
+
+    .h12{
+
+        font-size:40px;
+        font-family: raleway;
+        position:relative;
+        top:155px;
+    }
+
+    .perfil{
+
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        position:relative;
+        top:230px;
+        right:30px;
+
+    }
+    
+    a{
+        text-decoration: none;
+        color:black;    
+    }
+ 
+    .perfil img{
+
+        border-radius: 50%;
+    }
+
+    #form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .enviar{
+
+
+        width:20%;
+        height:23px;
+        position:relative;
+        top:140px;
+        left:-240px;
+    }
+
+}

@@ -1,0 +1,330 @@
+
+/*---------------PARTE DO GABRIEL-----------*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    width:100%;
+    height:40px;
+    background-color :  #000000;
+}
+    
+.sub{
+    height:100px;
+    width:100;
+    background-color : #efefef;
+}
+
+figure{
+
+display:flex;
+justify-content:left;
+position: absolute;
+left:20px;
+top:45px;
+} 
+.logo{
+
+position:relative;
+top:2px;
+
+}
+
+.ola{
+
+text-decoration: none ;
+font-family: verdana;
+position: absolute;
+top:95px;
+left:130px;
+font-size: 16px;
+}
+
+.ola2{
+
+    text-decoration: none ;
+    font-family: verdana;
+    position: absolute;
+    top:95px;
+    left:250px;
+    font-size: 16px;
+}
+
+.sair{
+    text-decoration: none;
+    font-family: verdana;
+    position: absolute;
+    top: 95px;
+    right: 55px;
+    font-size: 16px;
+}
+
+.sair:hover{
+    color: #0e0e0e;
+}
+
+.sair-texto{
+    font-size: clamp(1em, 0.5em + 1vw, 2em);
+}
+
+.ola3{
+    text-decoration: none ;
+    font-family: verdana;
+    position: absolute;
+    top:60px;
+    right:50px;
+    font-size: 30px;
+}
+
+.ola3:hover{
+    color: #0e0e0e;
+}
+
+.s1{
+    
+    width: 100%;
+    background-color: #2b2a2a;
+}
+
+#category-text{
+    display: inline-block;
+
+    margin-left: 5%;
+    margin-top: 1%;
+
+    font-size: clamp(2.5em, 2em + 1vw, 3em);
+    font-family: Verdana;
+    font-weight: bolder;
+
+    color: #fefefe;
+}
+
+#opcoes{
+    width: 10%;
+    height: 10%;
+    margin-left: 1%;
+
+    background-color: #fefefe;
+    color: #0e0e0e;
+
+    font-size: clamp(0.5em, 1em + 1vw, 1.5em);
+}
+
+.category-text{
+    display: inline;
+
+    font-size: 17pt;
+}
+
+a{
+
+color:#dc3c4d;
+
+}
+
+.foto{
+
+position: relative;
+border-radius: 5%;
+
+left:180px;
+top:120px;
+}
+
+
+.texto{
+    width: 30%;
+    height: 50%;
+    position: relative;
+    top:110px;
+    line-height:35px;
+    font-family: verdana;
+    margin:20px;
+    padding:20px;
+    background-color: #efefef;
+    border-radius: 5%;
+    opacity: 0.9;
+    text-align:justify;
+}
+
+.h1{
+
+    color:#dc3c4d;
+    text-align:center;
+
+}
+
+footer{
+    position:relative;
+    height: 340px;
+    width: 100%;
+    background-color: #c51f1f;
+    background-color: #efefef;
+
+}
+.fig1{
+
+    position:relative;
+    top:28px;
+
+
+}.redes1{
+
+
+    position:relative;
+    display: inline-block;
+    line-height: 30px;
+    margin: 5px;
+}
+
+.redes{
+    font-family:verdana;
+    font-size:16px;
+}
+
+
+
+.area{
+    
+    color:#db293b;
+    background-color: #2b2a2a;
+    
+    border-radius: 5%;
+    opacity:0.9;
+    text-align: justify;
+    height:150px;
+    width: 18%;
+    Position: absolute;
+    top:50px;
+    right: 30px;    
+    font-family:Helvetica;
+    font-size:16px;
+    line-height: 30px;
+    
+
+    }
+
+    .t{
+
+        margin:10px;
+       
+    }
+
+
+/*--------------BARRA DE PESQUISA-----------------*/
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+ 
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#cf16168c ,#ad1111);
+    border-radius: 30px;
+}
+
+/*BARRA DE PESQUISA*/
+
+.barra_pesq{
+    margin-top: 0.5%;
+
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    background-color: #252525;
+    height: 50px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px #666666;
+
+}
+
+.barra_pesq:hover > .texto-s{
+    width: 300px;
+    padding: 0 6px;
+}
+
+.barra_pesq:hover > .btn{
+    background-color: #FFF;
+
+}
+
+.btn{
+    color: #ce2222;
+    text-decoration: none;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.texto-s{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16pt;
+    transition: 0.5s;
+    line-height: 47px;
+    width: 0px;
+}
+
+/*Menu que Desce - Alex*/
+
+.menu_desce{
+    position: absolute;
+    top: 138px;
+    left:0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #efefef;
+    z-index: 1;
+}
+
+.subir{
+    height: 0px;
+    transition: 1s;
+}
+
+.descer{
+    transition: 1s;
+    height: 300px;
+}
+
+.menu_desce a {
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+    color: #ad1111;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    color: #dc3c4d;
+}
+
+.seta{
+    text-align: left;
+    position: absolute;
+    top:100px;
+    left: 130px;
+    z-index: 1;
+}
+
+.seta svg{
+    font-size: 30px;
+    color: #ad1111;
+    cursor: pointer;
+}

@@ -1,0 +1,489 @@
+
+
+@media screen and (max-width:1980px){
+
+/*---------------PARTE DO GABRIEL-----------*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#logo{
+    cursor: pointer;
+}
+
+header{
+    width:100%;
+    height:2%;
+    background-color :  #000000;
+}
+    
+.sub{
+    height:5%;
+    width:100;
+    background-color : #efefef;
+    
+}
+
+figure{
+
+display:flex;
+justify-content:left;
+position: absolute;
+left:20px;
+top:45px;
+
+} 
+.logo{
+    position:relative;
+    top:2px;
+}
+
+/*----COLOCAR ESSA PARTE NA HEADER DO games.php------*/
+
+.sair{
+    text-decoration: none ;
+    font-family: verdana;
+    position: absolute;
+    top: 95px;
+    right: 55px;
+    font-size: 16px;
+}
+
+.sair:hover{
+    color: #0e0e0e;
+}
+
+.sair-texto{
+    font-size: clamp(1em, 0.5em + 1vw, 2em);
+}
+
+.ola3{
+    text-decoration: none ;
+    font-family: verdana;
+    position: absolute;
+    top:60px;
+    right:50px;
+    font-size: 30px;
+}
+
+/*-----------------------------------------*/
+
+.ola{
+
+text-decoration: none ;
+font-family: verdana;
+position: absolute;
+top:95px;
+left:130px;
+font-size: 16px;
+}
+
+.ola2{
+
+    text-decoration: none ;
+    font-family: verdana;
+    position: absolute;
+    top:95px;
+    left:250px;
+    font-size: 16px;
+}
+
+.ola3:hover{
+    color: #0e0e0e;
+}
+
+a{
+color:#dc3c4d;
+}
+
+.foto{
+
+position: relative;
+border-radius: 5%;
+
+left:180px;
+top:170px;
+}
+
+
+.texto{
+    width: 30%;
+    height: 50%;
+    position: relative;
+    top:110px;
+    line-height:35px;
+    font-family: verdana;
+    margin:20px;
+    padding:20px;
+    background-color: #efefef;
+    border-radius: 5%;
+    opacity: 0.9;
+    text-align:justify;
+
+
+
+}.h1{
+
+    color:#dc3c4d;
+    text-align:center;
+
+}
+
+footer{
+
+    height: 12%;
+    width: 100%;
+    background-color: #c51f1f;
+    background-color: #efefef;
+
+}
+.fig1{
+    display: inline;
+    position:relative;
+    top:28px;
+}
+
+.redes{
+
+    Position: relative;
+    top:22px;
+    left:18px;
+    text-align: left;
+    font-family:verdana;
+    font-size:16px;
+    line-height: 30px;
+
+    display: inline-block;
+}
+
+
+.area{
+    
+    color:#db293b;
+    background-color: #2b2a2a;
+    
+    border-radius: 5%;
+    opacity:0.9;
+    text-align: justify;
+    height:18%;
+    width: 18%;
+    Position: absolute;
+    bottom:1200px;
+    right: 30px;    
+    font-family:Helvetica;
+    font-size:16px;
+    line-height: 30px;
+    
+
+}
+
+.t{
+
+    margin:10px;
+    
+}
+
+/*---------------PARTE DO GEOVANE------------*/
+
+
+body{
+    height: 230vh;
+    background-color: #383333;
+}
+
+/*---------------PARTE DO GEOVANE------------*/
+
+main{
+    height: 82%;
+    width: 100%;
+}
+
+.s1{
+    height: 37%;
+    width: 100%;
+    background-color: #2b2a2a;
+    display: flex;
+    justify-content: space-around;
+}
+
+.s2{
+    height: 33%;
+    width: 100%;
+    
+    background-image: url('./background_s2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 75%;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.s3{
+    height: 30%;
+    width: 100%;
+    background-image: url(./background_s3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3 a#cat{
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-to-jogos{
+    text-decoration: none;
+    color: #fefefe;
+
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: clamp(2em, 2.5em + 2vw, 3.5em);
+
+    transition: all 0.2s linear;
+}
+
+.go-to-jogos:hover{
+    color: #3d424a;
+    cursor: pointer;
+}
+
+#cat img{
+    transition: all 0.2s linear;
+}
+
+#botao{
+    width: 30%;
+    text-align: center;
+
+    margin-top: 20px;
+}
+       
+
+/*--------------BARRA DE PESQUISA-----------------*/
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+ 
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#cf16168c ,#ad1111);
+    border-radius: 30px;
+}
+
+/*BARRA DE PESQUISA*/
+
+.barra_pesq{
+    margin-top: 0.5%;
+
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    background-color: #252525;
+    height: 50px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px #666666;
+
+}
+
+.barra_pesq:hover > .texto-s{
+    width: 300px;
+    padding: 0 6px;
+}
+
+.barra_pesq:hover > .btn{
+    background-color: #FFF;
+
+}
+
+.btn{
+    color: #ce2222;
+    text-decoration: none;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.texto-s{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16pt;
+    transition: 0.5s;
+    line-height: 47px;
+    width: 0px;
+}
+
+/*Menu que Desce - Alex*/
+
+.menu_desce{
+    position: absolute;
+    top: 134px;
+    left:0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #5f5f5f;
+    z-index: 1;
+}
+
+.subir{
+    height: 0px;
+    transition: 1s;
+}
+
+.descer{
+    transition: 1s;
+    height: 300px;
+}
+
+.menu_desce a {
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+    color: #ad1111;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    color: #dc3c4d;
+}
+
+.seta{
+    text-align: left;
+    position: absolute;
+    top: 105px;
+    left: 130px;
+    z-index: 1;
+}
+
+.seta svg{
+    font-size: 30px;
+    color: #ad1111;
+    cursor: pointer;
+}
+
+.seta_desc{
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+.seta_sobe{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.loading{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: is-rotate 1s infinite;
+    height: 50px;
+    width: 50px;
+    border: 10px solid #868686;
+    border-top-color: #c51f1f;
+    border-radius: 50%;
+    
+}
+
+.loading_some{
+    opacity: 0;
+}
+
+@keyframes is-rotate{
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+
+/*Categorias*/
+
+.categories{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: left;
+}
+
+.title{
+    margin-left: 3%;
+
+    height: 90%;
+    width: 40%;
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.game{
+    width: 25%;
+    height: 80%;
+
+    background-color: #0e0e0e;
+
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #353535;
+
+    display: flex;
+    align-items: center;
+}
+
+.game:hover{
+    cursor: pointer;
+}
+
+.game_some{
+    opacity: 0;
+}
+
+.game_aparece{
+    opacity: 1;
+    transition: 0.5;
+}
+
+.category-cards{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: left;
+}
+
+
+
+}
